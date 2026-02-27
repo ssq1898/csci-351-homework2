@@ -10,3 +10,8 @@ Modules
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: helpers
+   :members:
+   :undoc-members:
+   :show-inheritance:
