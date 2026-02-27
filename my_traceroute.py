@@ -59,7 +59,7 @@ def traceroute(dest, numeric, queries, summary):
 
         print()
 
-        if summary and unanswered > 0:
+        if summary:
             print(f"  {unanswered}/{queries} probes unanswered")
 
         if reached_destination:
