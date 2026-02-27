@@ -65,7 +65,7 @@
 
 
 \title{csci\sphinxhyphen{}351\sphinxhyphen{}homework2}
-\date{Feb 25, 2026}
+\date{Feb 27, 2026}
 \release{1.0}
 \author{Samuel Quink}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -95,7 +95,50 @@ documentation for details.
 
 
 \chapter{Modules}
-\label{\detokenize{modules:module-my_ping}}\label{\detokenize{modules:modules}}\label{\detokenize{modules::doc}}\index{module@\spxentry{module}!my\_ping@\spxentry{my\_ping}}\index{my\_ping@\spxentry{my\_ping}!module@\spxentry{module}}\index{module@\spxentry{module}!my\_traceroute@\spxentry{my\_traceroute}}\index{my\_traceroute@\spxentry{my\_traceroute}!module@\spxentry{module}}\phantomsection\label{\detokenize{modules:module-my_traceroute}}
+\label{\detokenize{modules:module-my_ping}}\label{\detokenize{modules:modules}}\label{\detokenize{modules::doc}}\index{module@\spxentry{module}!my\_ping@\spxentry{my\_ping}}\index{my\_ping@\spxentry{my\_ping}!module@\spxentry{module}}\index{ping() (in module my\_ping)@\spxentry{ping()}\spxextra{in module my\_ping}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules:my_ping.ping}}
+\pysigstartsignatures
+\pysiglinewithargsret
+{\sphinxcode{\sphinxupquote{my\_ping.}}\sphinxbfcode{\sphinxupquote{ping}}}
+{\sphinxparam{\DUrole{n}{dest}}\sphinxparamcomma \sphinxparam{\DUrole{n}{count}}\sphinxparamcomma \sphinxparam{\DUrole{n}{interval}}\sphinxparamcomma \sphinxparam{\DUrole{n}{size}}\sphinxparamcomma \sphinxparam{\DUrole{n}{timeout}}}
+{}
+\pysigstopsignatures
+\sphinxAtStartPar
+Send ICMP echo requests to the specified destination and print the results.
+
+\sphinxAtStartPar
+@param dest: The destination host to ping
+@param count: Number of packets to send
+@param interval: Time interval between packets in seconds
+@param size: Size of the ICMP payload in bytes
+@param timeout: Timeout for each packet in seconds
+
+\end{fulllineitems}
+
+\index{module@\spxentry{module}!my\_traceroute@\spxentry{my\_traceroute}}\index{my\_traceroute@\spxentry{my\_traceroute}!module@\spxentry{module}}\index{traceroute() (in module my\_traceroute)@\spxentry{traceroute()}\spxextra{in module my\_traceroute}}\phantomsection\label{\detokenize{modules:module-my_traceroute}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules:my_traceroute.traceroute}}
+\pysigstartsignatures
+\pysiglinewithargsret
+{\sphinxcode{\sphinxupquote{my\_traceroute.}}\sphinxbfcode{\sphinxupquote{traceroute}}}
+{\sphinxparam{\DUrole{n}{dest}}\sphinxparamcomma \sphinxparam{\DUrole{n}{numeric}}\sphinxparamcomma \sphinxparam{\DUrole{n}{queries}}\sphinxparamcomma \sphinxparam{\DUrole{n}{summary}}}
+{}
+\pysigstopsignatures
+\sphinxAtStartPar
+Perform a traceroute to the specified destination.
+
+\sphinxAtStartPar
+@param dest: The destination host to trace
+@param numeric: If True, display numeric IP addresses instead of hostnames
+@param queries: Number of queries to send per hop
+@param summary: If True, display a summary of the traceroute results
+
+\end{fulllineitems}
+
+
 
 \renewcommand{\indexname}{Python Module Index}
 \begin{sphinxtheindex}
