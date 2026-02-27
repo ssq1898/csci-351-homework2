@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.2.27)  27 FEB 2026 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.2.27)  27 FEB 2026 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,8 +765,7 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count346
-)
-No file csci-351-homework2.aux.
+) (csci-351-homework2.aux)
 \openout1 = `csci-351-homework2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -872,12 +871,14 @@ e7-mapping.def)))
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 74.
+(csci-351-homework2.out) (csci-351-homework2.out)
 \@outlinefile=\write5
 \openout5 = `csci-351-homework2.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 82.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 82
 .
+
 (C:\Users\samqu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
@@ -900,11 +901,11 @@ u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
 
 
 ]
-No file csci-351-homework2.toc.
+(csci-351-homework2.toc)
 \tf@toc=\write6
 \openout6 = `csci-351-homework2.toc'.
 
-[1
+ [1
 
 ] [2
 
@@ -925,12 +926,8 @@ LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
 
 ]
 
-LaTeX Warning: Reference `modules:module-my_ping' on page 5 undefined on input 
-line 147.
-
-
-LaTeX Warning: Reference `modules:module-my_traceroute' on page 5 undefined on 
-input line 148.
+LaTeX Warning: Reference `modules:module-helpers' on page 5 undefined on input 
+line 186.
 
 [5
 
@@ -955,29 +952,29 @@ Package rerunfilecheck Warning: File `csci-351-homework2.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `csci-351-homework2.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  83CA5A117AAA2FE680CC7DE50A1EAEAB;223.
+(rerunfilecheck)             Before: 83CA5A117AAA2FE680CC7DE50A1EAEAB;223
+(rerunfilecheck)             After:  398414705EEA4499963694E3CFC611B9;223.
  ) 
 Here is how much of TeX's memory you used:
- 21042 strings out of 467867
- 388578 string characters out of 5418334
- 769367 words of memory out of 5000000
- 49548 multiletter control sequences out of 15000+600000
+ 21062 strings out of 467867
+ 389284 string characters out of 5418334
+ 772660 words of memory out of 5000000
+ 49557 multiletter control sequences out of 15000+600000
  670775 words of font info for 70 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,11n,82p,1209b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\samqu\AppData\Local\MiKTeX\fonts/pk/modeless/public/txfonts/dpi600
-\t1xbtt.pk> <C:\Users\samqu\AppData\Local\MiKTeX\fonts/pk/modeless/public/txfon
-ts/dpi600\t1xtt.pk><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/tex-gyre/qhvb.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/tex-gyre/qhvbi.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/tex-gyre/qhvr.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/tex-gyre/qtmb.pfb><C:/Users/samqu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/samqu/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on csci-351-homework2.pdf (9 pages, 148566 bytes).
+ 72i,11n,82p,1209b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhv
+b.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre
+/qhvbi.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
+-gyre/qhvr.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/tex-gyre/qtmb.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/tex-gyre/qtmr.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/tex-gyre/qtmri.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/txfonts/t1xbtt.pfb><C:/Users/samqu/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on csci-351-homework2.pdf (9 pages, 153988 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

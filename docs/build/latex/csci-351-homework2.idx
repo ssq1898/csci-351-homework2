@@ -4,3 +4,7 @@
 \indexentry{module@\spxentry{module}!my\_traceroute@\spxentry{my\_traceroute}|hyperpage}{3}
 \indexentry{my\_traceroute@\spxentry{my\_traceroute}!module@\spxentry{module}|hyperpage}{3}
 \indexentry{traceroute() (in module my\_traceroute)@\spxentry{traceroute()}\spxextra{in module my\_traceroute}|hyperpage}{3}
+\indexentry{module@\spxentry{module}!helpers@\spxentry{helpers}|hyperpage}{3}
+\indexentry{helpers@\spxentry{helpers}!module@\spxentry{module}|hyperpage}{3}
+\indexentry{calculate\_checksum() (in module helpers)@\spxentry{calculate\_checksum()}\spxextra{in module helpers}|hyperpage}{3}
+\indexentry{create\_packet() (in module helpers)@\spxentry{create\_packet()}\spxextra{in module helpers}|hyperpage}{3}

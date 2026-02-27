@@ -138,11 +138,53 @@ Perform a traceroute to the specified destination.
 
 \end{fulllineitems}
 
+\index{module@\spxentry{module}!helpers@\spxentry{helpers}}\index{helpers@\spxentry{helpers}!module@\spxentry{module}}\index{calculate\_checksum() (in module helpers)@\spxentry{calculate\_checksum()}\spxextra{in module helpers}}\phantomsection\label{\detokenize{modules:module-helpers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules:helpers.calculate_checksum}}
+\pysigstartsignatures
+\pysiglinewithargsret
+{\sphinxcode{\sphinxupquote{helpers.}}\sphinxbfcode{\sphinxupquote{calculate\_checksum}}}
+{\sphinxparam{\DUrole{n}{source\_string}}}
+{}
+\pysigstopsignatures
+\sphinxAtStartPar
+Calculate the checksum of the given source string.
+
+\sphinxAtStartPar
+@param source\_string: The string to calculate the checksum for
+@return: The checksum value
+
+\end{fulllineitems}
+
+\index{create\_packet() (in module helpers)@\spxentry{create\_packet()}\spxextra{in module helpers}}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{modules:helpers.create_packet}}
+\pysigstartsignatures
+\pysiglinewithargsret
+{\sphinxcode{\sphinxupquote{helpers.}}\sphinxbfcode{\sphinxupquote{create\_packet}}}
+{\sphinxparam{\DUrole{n}{seq}}\sphinxparamcomma \sphinxparam{\DUrole{n}{size}}}
+{}
+\pysigstopsignatures
+\sphinxAtStartPar
+Create an ICMP echo request packet with the given sequence number.
+
+\sphinxAtStartPar
+@param seq: Sequence number for the ICMP packet
+@param size: Size of the ICMP payload in bytes
+@return: The complete ICMP packet ready to be sent
+
+\end{fulllineitems}
+
 
 
 \renewcommand{\indexname}{Python Module Index}
 \begin{sphinxtheindex}
 \let\bigletter\sphinxstyleindexlettergroup
+\bigletter{h}
+\item\relax\sphinxstyleindexentry{helpers}\sphinxstyleindexpageref{modules:\detokenize{module-helpers}}
+\indexspace
 \bigletter{m}
 \item\relax\sphinxstyleindexentry{my\_ping}\sphinxstyleindexpageref{modules:\detokenize{module-my_ping}}
 \item\relax\sphinxstyleindexentry{my\_traceroute}\sphinxstyleindexpageref{modules:\detokenize{module-my_traceroute}}
